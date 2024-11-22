@@ -66,10 +66,9 @@
       <th scope="col">Teléfono</th>
       <th scope="col">Contenedor</th>
       <th scope="col">Release/Booking</th>      
-      <th scope="col">Tipo</th>
-      <th scope="col">&nbsp;</th>
+      <th scope="col">Tipo</th>      
       <th scope="col"></th>
-
+      <th scope="col">&nbsp;</th>
     </tr>
   </thead>
   <!-- /var/www/ws2/cliente.php para obtener mas datos--> 
@@ -101,9 +100,9 @@
       <td>{{$valores->CELULAR}}</td>
       <td>{{$valores->CONTENEDOR}}</td>
       <td>{{$valores->DOCUMENTO}}</td>      
-      <td>{{$valores->CONTENEDORTIPO}}</td>
-      <td>{{$valores->ROUNDTRIP}}</td>   <!-- /var/www/ws2/cliente.php para obtener mas datos--> 
+      <td>{{$valores->CONTENEDORTIPO}}</td>      
        <td><a class="btn btn-primary" href="{{ route('totem.show' , $valores->IDENTIFICADOR)}}" role="button">Imprimir</a></td>
+       <td>{{$valores->ROUNDTRIP}}</td>   <!-- /var/www/ws2/cliente.php para obtener mas datos--> 
     </tr>
    @endforeach
  @endif  
