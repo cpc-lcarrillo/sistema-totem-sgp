@@ -1,5 +1,5 @@
 <?php
-include_once 'puertocoronelconfig.php'; //esta en carpeta public
+include_once 'puertocoronelconfig.php'; //esta en carpeta public   url_roundtrip
 ?>
 
 <!doctype html>
@@ -133,12 +133,23 @@ include_once 'puertocoronelconfig.php'; //esta en carpeta public
      <a href="<?php echo url_retiro_impo();?>" class="btn coloruno btn-lg btn-block text-white" id="activa5">ACO IMPO</a>
 
   </div>
+</div>        
+<div class="col-12">  
 </div>
-  </div>
-</div>
+
 <div class="col-12">
   <BR>
 </div>
+<div class="col-12">
+  <div class="d-flex justify-content-center">
+     <a href="<?php echo url_roundtrip();?>" class="btn coloruno btn-lg btn-block text-white" id="activa5">RoundTrip Expo Full - Retiro Vacio</a>
+
+  </div>
+</div>
+<div class="col-12">
+</div>
+
+
 
 {{-- <div class="col-12">
   <div class="d-flex justify-content-center">
